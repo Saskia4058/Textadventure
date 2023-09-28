@@ -8,12 +8,23 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+
 namespace Spiel
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
+            {
+                Console.WriteLine("Default Title: {0}",
+                               Console.Title);
+
+                Console.Title = "Der Super-Raub";
+
+                Console.WriteLine("Changed Title: {0}",
+                               Console.Title);
+            }
 
             // Abschnitt für das Titelbild
             Console.WriteLine();
