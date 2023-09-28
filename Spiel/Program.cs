@@ -16,10 +16,8 @@ namespace Spiel
         static void Main(string[] args)
         {
 
-            {
-                Console.Title = "Der Super-Raub";
-            }
-
+            Console.Title = "Der Super-Raub";
+            
             // Abschnitt für das Titelbild
             Console.WriteLine();
             Console.WriteLine();
@@ -59,6 +57,15 @@ namespace Spiel
                 // falsche Eingabe, das Spiel wird beendet
                 Console.WriteLine("du hast nicht a eingegeben, sondern " + starteingabe + ". Das Spiel wird beendet!");
             }
+
+            Console.WriteLine("3");
+            Thread.Sleep(1000);
+            Console.WriteLine("2");
+            Thread.Sleep(1000);
+            Console.WriteLine("1");
+            Thread.Sleep(1000);
+            Console.WriteLine("Los!");
+            Thread.Sleep(1000);
 
             //Szene 1
             // Einführungstext 1
