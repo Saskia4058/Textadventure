@@ -17,13 +17,7 @@ namespace Spiel
         {
 
             {
-                Console.WriteLine("Default Title: {0}",
-                               Console.Title);
-
                 Console.Title = "Der Super-Raub";
-
-                Console.WriteLine("Changed Title: {0}",
-                               Console.Title);
             }
 
             // Abschnitt für das Titelbild
